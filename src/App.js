@@ -1,4 +1,4 @@
-import './App.css';
+// import './index.css';
 import Home from './pages/Home'
 import Rooms from './pages/Rooms'
 import SingleRoom from './pages/SingleRoom'

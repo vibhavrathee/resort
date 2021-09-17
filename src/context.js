@@ -1,5 +1,5 @@
 import React, {useContext, useState} from 'react'
-import { useEffect } from 'react/cjs/react.development';
+import { useEffect } from 'react';
 import items from './data'
 const RoomContext = React.createContext();
 let temp = {
@@ -17,7 +17,7 @@ let temp = {
         breakfast: false,
         pets: false
     };
-    const RoomProvider = ({children}) => {
+const RoomProvider = ({children}) => {
     //useSetState
     const [state, setState] = useState(temp);
     const formatData = (items) => {
